@@ -1,19 +1,18 @@
 <template>
   <div>
-    <router-view></router-view>
+    <router-view />
   </div>
 </template>
 
 <script lang="ts">
-import {defineComponent, reactive, toRefs, watch} from 'vue'
+  import { defineComponent } from 'vue';
 
-export default defineComponent({
-  name: 'App',
-  setup() {
-
-  }
-})
+  export default defineComponent({
+    name: 'App',
+    setup() {},
+  });
 </script>
 
-<style>
+<style lang="less">
+  @import 'styles/index.less';
 </style>
