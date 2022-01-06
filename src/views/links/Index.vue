@@ -3,17 +3,13 @@
 </template>
 
 <script lang="ts">
-import {defineComponent} from 'vue'
-export default defineComponent({
-  name: "",
-  setup() {
-    return {
-
-    }
-  }
-})
+  import { defineComponent } from 'vue';
+  export default defineComponent({
+    name: 'Links',
+    setup() {
+      return {};
+    },
+  });
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -6,7 +6,11 @@
         <div class="h_frame">
           <div class="h_logo">
             <router-link to="/">
-              <img class="h_avatar h_radian" src="https://img-1255836911.cos.ap-guangzhou.myqcloud.com/i.png" alt="">
+              <img
+                class="h_avatar h_radian"
+                src="https://img-1255836911.cos.ap-guangzhou.myqcloud.com/i.png"
+                alt=""
+              />
             </router-link>
           </div>
           <div class="h_links">
@@ -18,20 +22,18 @@
       </div>
     </div>
   </header>
-
 </template>
 
 <script lang="ts">
-import {defineComponent, reactive} from 'vue'
+  import { defineComponent } from 'vue';
 
-export default defineComponent({
-  name: "BaseHeader",
-  setup() {
-    const state = reactive({})
-    return {}
-  }
-})
+  export default defineComponent({
+    name: 'BaseHeader',
+    setup() {
+      // const state = reactive({});
+      return {};
+    },
+  });
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
